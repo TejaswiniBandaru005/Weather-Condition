@@ -1,4 +1,4 @@
-const ApiKey = "ef8f4d3960e85e46deab5d323655052e";
+const ApiKey = "38d69a80e3be8a7c015f79f085b4d119";
 const url = `https://api.weatherstack.com/current?access_key=${ApiKey}&units=m&query=`;
 let temp = document.querySelector("#temp");
 let btn = document.querySelector(".searchbtn");
