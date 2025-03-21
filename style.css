@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    background-image: url("https://img.freepik.com/free-vector/background-monsoon-season_52683-115103.jpg?t=st=1742574727~exp=1742578327~hmac=98d4b00b41e87ba170e28f6eb78b71697affa31626c2dd5102f166cf5c071df0&w=996");
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 500px;
+    max-width: 90%;
+}
+
+h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+#cityinput {
+    padding: 10px;
+    font-size: 1rem;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+#cityinput:focus {
+    border: 1px solid #4e9af1;
+}
+
+.searchbtn {
+    padding: 10px 15px;
+    background-color: #4e9af1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.searchbtn:hover {
+    background-color: #3878d4;
+}
+
+.temp, .description {
+    margin-top: 20px;
+}
+
+#windspeed, #humidity, #weatherdescription {
+    font-size: 1.1rem;
+    color: #020101;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+/* Weather condition icons and styling */
+.temp {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.weather-description {
+    font-size: 1.1rem;
+    color: #777;
+    margin-top: 10px;
+}
+
+.weather-icon {
+    margin-top: 10px;
+    font-size: 3rem;
+}
+
+/* Background Image */
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#weathertext{
+    font-size: large;
+    font-weight: bold;
+}
