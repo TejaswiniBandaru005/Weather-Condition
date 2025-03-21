@@ -29,9 +29,9 @@ async function fetchApi(city) {
         temp.innerText = `Temperature: ${temperature} °C`;
         weather_description.innerText = `Weather: ${condition}`;
 
-        if (temperature <= 10) {
+        if (temperature == 10) {
             image.src = "cloudy.png";
-        } else if (temperature > 10 && temperature <= 30) {
+        } else if (temperature >= 10 && temperature <= 30) {
             image.src = "rainy.png"; 
         } else {
             image.src = "sunny.png";  // For hot weather (> 30°C)
