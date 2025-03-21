@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-*{
-    margin: 10;
-    padding: 10;
+* {
+    margin: 0; 
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
-    background-image: url("https://img.freepik.com/free-vector/background-monsoon-season_52683-115103.jpg?t=st=1742574727~exp=1742578327~hmac=98d4b00b41e87ba170e28f6eb78b71697affa31626c2dd5102f166cf5c071df0&w=996");
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -14,6 +13,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url("https://img.freepik.com/free-vector/background-monsoon-season_52683-115103.jpg?t=st=1742574727~exp=1742578327~hmac=98d4b00b41e87ba170e28f6eb78b71697affa31626c2dd5102f166cf5c071df0&w=996");
+    background-size: cover;
+    background-position: center; 
 }
 
 .container {
@@ -23,6 +25,7 @@ body {
     text-align: center;
     width: 500px;
     max-width: 90%;
+    background-color: rgba(255, 255, 255, 0.8); 
 }
 
 h2 {
@@ -74,7 +77,6 @@ h2 {
     font-weight: bold;
 }
 
-/* Weather condition icons and styling */
 .temp {
     font-size: 1.5rem;
     font-weight: bold;
@@ -92,14 +94,13 @@ h2 {
     font-size: 3rem;
 }
 
-/* Background Image */
 img {
     width: 100%;
     border-radius: 10px;
     margin-top: 20px;
 }
 
-#weathertext{
+#weathertext {
     font-size: large;
     font-weight: bold;
 }
