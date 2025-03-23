@@ -22,7 +22,7 @@ async function fetchApi(city) {
         const temperature = Math.round(data.current.temperature);
         const wind = data.current.wind_speed;
         const humidity = data.current.humidity;
-        const condition = data.current.weather_description;
+        const condition = data.current.weather_descriptions[0];
 
         wind_speed.innerText = `Wind Speed: ${wind} Km/Hr`;
         current_humidity.innerText = `Humidity: ${humidity} %`;
